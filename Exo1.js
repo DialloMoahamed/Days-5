@@ -48,3 +48,20 @@ console.log(itCompanies[3]);
 console.log(itCompanies[4]);
 console.log(itCompanies[5]);
 console.log(itCompanies[6]);
+
+
+// Réponse numero 11
+let majF = itCompanies[0].toUpperCase();
+console.log(majF);
+let majG = itCompanies[1].toUpperCase();
+console.log(majG);
+let majM = itCompanies[2].toUpperCase();
+console.log(majM);
+let majA = itCompanies[3].toUpperCase();
+console.log(majA);
+let majI = itCompanies[4].toUpperCase();
+console.log(majI);
+let majO = itCompanies[5].toUpperCase();
+console.log(majO);
+let majAm = itCompanies[6].toUpperCase();
+console.log(majAm);
