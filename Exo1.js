@@ -24,4 +24,7 @@ console.log(mixedDataTypes.length);
 
 
 // Réponse numero 6
-const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+
+// Réponse numero 7
+console.log(itCompanies);
