@@ -10,3 +10,9 @@ console.log(tableau2);
 
 // Réponse numero 3
 console.log(tableau2.length);
+
+
+// Réponse numero 4
+console.log(tableau2[0]);
+console.log(tableau2[2]);
+console.log(tableau2[4]);
