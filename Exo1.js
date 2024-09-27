@@ -65,3 +65,9 @@ let majO = itCompanies[5].toUpperCase();
 console.log(majO);
 let majAm = itCompanies[6].toUpperCase();
 console.log(majAm);
+
+
+// Réponse numero 12
+let joigned = itCompanies.join()
+let concatener = joigned.concat(" are a big IT companies.")
+console.log(concatener);
