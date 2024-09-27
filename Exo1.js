@@ -28,3 +28,7 @@ const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle
 
 // Réponse numero 7
 console.log(itCompanies);
+
+
+// Réponse numero 8
+console.log(itCompanies.length);
