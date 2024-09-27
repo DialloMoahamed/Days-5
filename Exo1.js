@@ -71,3 +71,11 @@ console.log(majAm);
 let joigned = itCompanies.join()
 let concatener = joigned.concat(" are a big IT companies.")
 console.log(concatener);
+
+
+// Réponse numero 13
+if (itCompanies.includes("Samsung Group")) {
+    console.log("Samsung Group");
+} else {
+    console.log("Microsoft");
+}
