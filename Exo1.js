@@ -21,3 +21,7 @@ console.log(tableau2[4]);
 // Réponse numero 5
 const mixedDataTypes = [1, "Mohamed", 'HTML','CSS','JavaScript', false, true];
 console.log(mixedDataTypes.length);
+
+
+// Réponse numero 6
+const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
