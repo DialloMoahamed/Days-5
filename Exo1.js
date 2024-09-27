@@ -32,3 +32,9 @@ console.log(itCompanies);
 
 // Réponse numero 8
 console.log(itCompanies.length);
+
+
+// Réponse numero 9
+console.log(itCompanies[0]);
+console.log(itCompanies[1]);
+console.log(itCompanies[-1]);
