@@ -98,5 +98,10 @@ console.log(inverser);
 
 
 // Réponse numero 17
-const decoupage = itCompanies.slice(3);
+const decoupage = itCompanies.slice(0, 3);
 console.log(decoupage);
+
+
+// Réponse numero 18
+const decoupage2 = itCompanies.splice(-3);
+console.log(decoupage2);
