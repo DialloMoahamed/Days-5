@@ -97,23 +97,32 @@ const inverser = itCompanies.reverse();
 console.log(inverser);
 
 
-// Réponse numero 17
-const decoupage = itCompanies.slice(0, 3);
-console.log(decoupage);
+//  Réponse numero 17
+ const Companieses = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+ const decoupage = Companieses.slice(0, 3);
+ console.log(decoupage);
 
 
-// Réponse numero 18
-const decoupage2 = itCompanies.splice(-3);
-console.log(decoupage2);
+//  Réponse numero 18
+ const Companiese = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+ const decoupage2 = Companiese.splice(-3);
+ console.log(decoupage2);
 
 
-// Réponse numero 19
-const Companies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
-const top3 = itCompanies.slice(-3, 5);
+//  Réponse numero 19
+ const Companies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+ const top3 = Companies.slice(4);
 
-console.log(top3);
+ console.log(top3);
 
 
 // Réponse numero 20
-let del = itCompanies.splice(0, 1);
-console.log(del);   
+const Companie = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+let del = Companie.splice(1);
+console.log(del);  
+
+
+// Réponse numero 21
+const Sompanie = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+let del2 = Sompanie.splice(0, 4)
+console.log(del2);
