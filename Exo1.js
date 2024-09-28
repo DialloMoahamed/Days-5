@@ -105,3 +105,10 @@ console.log(decoupage);
 // Réponse numero 18
 const decoupage2 = itCompanies.splice(-3);
 console.log(decoupage2);
+
+
+// Réponse numero 19
+const Companies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+const top3 = itCompanies.slice(-3, 5);
+
+console.log(top3);
