@@ -90,3 +90,8 @@ console.log(companiesWithMultipleO);
 // Réponse numero 15
 const trier = itCompanies.sort();
 console.log(trier);
+
+
+// Réponse numero 16
+const inverser = itCompanies.reverse();
+console.log(inverser);
