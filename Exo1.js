@@ -85,3 +85,8 @@ if (itCompanies.includes("Samsung Group")) {
 const companiesWithMultipleO = itCompanies.filter(company => company.split('o').length - 1 > 1);
 
 console.log(companiesWithMultipleO);
+
+
+// Réponse numero 15
+const trier = itCompanies.sort();
+console.log(trier);
