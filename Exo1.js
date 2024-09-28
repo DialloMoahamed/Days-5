@@ -116,4 +116,4 @@ console.log(top3);
 
 // Réponse numero 20
 let del = itCompanies.splice(0, 1);
-console.log(del);
+console.log(del);   
