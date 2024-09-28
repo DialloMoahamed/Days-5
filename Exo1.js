@@ -1,4 +1,4 @@
-//------------- Niveau 1 ----------------//
+// //------------- Niveau 1 ----------------//
 // Réponse numero 1
 const tableau = Array();
 
@@ -79,3 +79,9 @@ if (itCompanies.includes("Samsung Group")) {
 } else {
     console.log("Microsoft");
 }
+
+
+// Réponse numero 14
+const companiesWithMultipleO = itCompanies.filter(company => company.split('o').length - 1 > 1);
+
+console.log(companiesWithMultipleO);
