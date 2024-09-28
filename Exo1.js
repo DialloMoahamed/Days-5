@@ -112,3 +112,8 @@ const Companies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle",
 const top3 = itCompanies.slice(-3, 5);
 
 console.log(top3);
+
+
+// Réponse numero 20
+let del = itCompanies.splice(0, 1);
+console.log(del);
