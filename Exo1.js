@@ -95,3 +95,8 @@ console.log(trier);
 // Réponse numero 16
 const inverser = itCompanies.reverse();
 console.log(inverser);
+
+
+// Réponse numero 17
+const decoupage = itCompanies.slice(3);
+console.log(decoupage);
