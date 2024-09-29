@@ -216,3 +216,8 @@ const countries = [
   ];
   const decouper = countries.slice(10);
   console.log(decouper);
+
+
+// Reponse numero 2
+const trouver = countries.slice(96, 97)
+console.log(trouver);
