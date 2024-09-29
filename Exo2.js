@@ -44,3 +44,21 @@ const countries = [
   } else {
     console.log(countries.push("Ethiopia"));
   }
+
+
+// Reponse numero 5
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+  if (webTechs.includes("Sass")) {
+    console.log(webTechs.push("Sass is a CSS preprocess"));
+  } else {
+    console.log(webTechs.push("Sass"));
+    console.log(webTechs);
+  }
