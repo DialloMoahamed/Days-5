@@ -1,10 +1,10 @@
-// //------------- Niveau 1 ----------------//
-// Réponse numero 1
-const tableau = Array();
+// // //------------- Niveau 1 ----------------//
+// // Réponse numero 1
+// const tableau = [];
 
 
 // Réponse numero 2
-const tableau2 = [1, 2, 3, 4, 5];
+const tableau2 = [1, 2, 3, 4, 5, 6];
 console.log(tableau2);
 
 
@@ -14,8 +14,8 @@ console.log(tableau2.length);
 
 // Réponse numero 4
 console.log(tableau2[0]);
-console.log(tableau2[2]);
-console.log(tableau2[4]);
+console.log(tableau2[3]);
+console.log(tableau2[5]);
 
 
 // Réponse numero 5
@@ -24,7 +24,7 @@ console.log(mixedDataTypes.length);
 
 
 // Réponse numero 6
-const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+ const itCompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
 
 // Réponse numero 7
 console.log(itCompanies);
@@ -36,7 +36,7 @@ console.log(itCompanies.length);
 
 // Réponse numero 9
 console.log(itCompanies[0]);
-console.log(itCompanies[1]);
+console.log(itCompanies[3]);
 console.log(itCompanies[6]);
 
 
@@ -69,6 +69,7 @@ console.log(majAm);
 
 // Réponse numero 12
 let joigned = itCompanies.join()
+console.log(joigned);
 let concatener = joigned.concat(" are a big IT companies.")
 console.log(concatener);
 
@@ -82,9 +83,30 @@ if (itCompanies.includes("Samsung Group")) {
 
 
 // Réponse numero 14
-const companiesWithMultipleO = itCompanies.filter(company => company.split('o').length - 1 > 1);
-
-console.log(companiesWithMultipleO);
+const Companes = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+let array = Companes[0].split('o').length - 1
+array > 1 ? "Facebook" : "";
+console.log("Facebook", array);
+// ------------------------
+let arra = Companes[1].split('o').length - 1
+array > 1 ? "Google" : "";
+console.log("Google", array);
+// ------------------------
+let arr = Companes[2].split('o').length - 1
+array > 1 ? "Microsoft" : "";
+console.log("Microsoft", array);
+// --------------------------
+let arran = Companes[3].split('o').length - 1
+console.log("Apple",arran);
+// --------------------------
+let arrane = Companes[4].split('o').length - 1
+console.log("IBM",arrane);
+// --------------------------
+let arranes = Companes[5].split('o').length - 0
+console.log("Oracle",arranes);
+// --------------------------
+let arranese = Companes[6].split('o').length - 1
+console.log("Amazon",arranese);
 
 
 // Réponse numero 15
