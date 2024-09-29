@@ -23,3 +23,24 @@ console.log(remove);
 //----------- Replace -----------//
 let replace = shoppingCart.splice(3, 1,'thé vert')
 console.log(replace);
+
+
+// Reponse numero 4
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ];
+  if (countries.includes("Ethiopia")) {
+    console.log(countries[4].toUpperCase());
+  } else {
+    console.log(countries.push("Ethiopia"));
+  }
