@@ -221,3 +221,11 @@ const countries = [
 // Reponse numero 2
 const trouver = countries.slice(96, 97)
 console.log(trouver);
+
+
+// Reponse numero 3
+if (countries % 2 === 0) {
+    console.log(countries / 2);
+} else {
+    console.log(countries.push("Niger"));
+}
