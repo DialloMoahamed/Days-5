@@ -154,3 +154,7 @@ console.log(del2);
 const Sompanies = [ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
 let del3 = Sompanies.splice(3, 1);
 console.log(Sompanies);
+
+
+// Réponse numero 23
+console.log(itCompanies.splice());

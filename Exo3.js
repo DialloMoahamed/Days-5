@@ -1,19 +1,20 @@
 // Reponse numero 1
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+const tableautrier = ages.sort();
 // ----------- Maximum ----------- //
-const maximum = Math.max(...ages);
+const maximum = tableautrier[tableautrier.length - 1]
 console.log(maximum);
 // ----------- Minimum ----------- //
-const minimum = Math.min(...ages);
+const minimum = tableautrier[0];
 console.log(minimum);
 // ----------- L'âge moyen ----------- //
-const âgemoyen = (maximum - minimum / 2);
-console.log(âgemoyen);
+const âgemoyen = parseInt(tableautrier.length / 2);
+console.log(tableautrier[5]);
 // ----------- La plage d'âges ----------- //
-const plagedâges = (maximum - minimum);
+const plagedâges = parseInt((tableautrier[0] + tableautrier[1] + tableautrier[2] + tableautrier[3] + tableautrier[4] + tableautrier[5] + tableautrier[6] + tableautrier[7] + tableautrier[8] + tableautrier[9]) / tableautrier.length);
 console.log(plagedâges);
 // ----------- Comparaison de  (min - average) ----------- //
-const Comparaisondeminmoinaverage = Math.abs(minimum - âgemoyen);
+const Comparaisondeminmoinaverage = (maximum - minimum);
 console.log(Comparaisondeminmoinaverage);
 // ----------- Comparaison de  (max - average) ----------- //
 const Comparaisondemaxmoinaverage = Math.abs(maximum - âgemoyen);
