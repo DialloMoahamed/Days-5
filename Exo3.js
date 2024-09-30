@@ -14,11 +14,13 @@ console.log(tableautrier[5]);
 const plagedâges = parseInt((tableautrier[0] + tableautrier[1] + tableautrier[2] + tableautrier[3] + tableautrier[4] + tableautrier[5] + tableautrier[6] + tableautrier[7] + tableautrier[8] + tableautrier[9]) / tableautrier.length);
 console.log(plagedâges);
 // ----------- Comparaison de  (min - average) ----------- //
-const Comparaisondeminmoinaverage = (maximum - minimum);
+const Comparaisondeminmoinaverage = (minimum - âgemoyen);
 console.log(Comparaisondeminmoinaverage);
 // ----------- Comparaison de  (max - average) ----------- //
 const Comparaisondemaxmoinaverage = Math.abs(maximum - âgemoyen);
 console.log(Comparaisondemaxmoinaverage);
+// comparaison -------------
+console.log(Comparaisondeminmoinaverage < Comparaisondemaxmoinaverage);
 // separation -------------
 const countries = [
     'Afghanistan',

@@ -1,5 +1,4 @@
 // Reponse numero 1
-// Voir dans les fichiers countries.js,web_techs.js
 
 // Reponse numero 2
 let text =
@@ -27,7 +26,7 @@ console.log(replace);
 
 
 // Reponse numero 4
-const countries = [
+const countrie = [
     'Albania',
     'Bolivia',
     'Canada',
@@ -40,10 +39,10 @@ const countries = [
     'Japan',
     'Kenya'
   ];
-  if (countries.includes("Ethiopia")) {
-    console.log(countries[4].toUpperCase());
+  if (countrie.includes("Ethiopia")) {
+    console.log(countrie[4].toUpperCase());
   } else {
-    console.log(countries.push("Ethiopia"));
+    console.log(countrie.push("Ethiopia"));
   }
 
 
