@@ -1,5 +1,6 @@
 // Reponse numero 1
-
+const table = ([countriese , webtechs])
+console.log(table);
 // Reponse numero 2
 let text =
 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.';

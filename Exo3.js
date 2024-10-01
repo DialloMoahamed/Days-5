@@ -222,7 +222,7 @@ const countries = [
 
 
 // Reponse numero 2
-const trouver = countries.slice(96, 97)
+const trouver = countries.slice(91, 92)
 console.log(trouver);
 
 
